@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>registro estudiantes sena</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="../formulario/ASSETS/CSS/style.css">    
+<body>
+        <h1>REGISTRO ESTUDIANTES SENA</h1>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label">nombre</label>
+              <input type="text" class="form-control" id="validationCustom01"  required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="container"></div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label">apellido</label>
+              <input type="text" class="form-control" id="validationCustom02" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="container"></div>
+            <div class="col-md-3">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>documento</option>
+                  <option value="1">cedula de ciudadania</option>
+                  <option value="2">tarjeta de identidad</option>
+                  <option value="3">cedula de extranjeria</option>
+                </select>
+              </div>
+            <div class="container"></div>
+            <div class="col-md-4">
+              <label for="validationCustomUsername" class="form-label">correo</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                  
+                </div>
+              </div>
+              
+            </div>
+            <div class="container"></div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">observaciones</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+                
+              </div>
+            </div>
+            <div class="container"></div>
+            <div class="col-md-3">
+              <label for="validationCustom04" class="form-label">ciudad</label>
+              <input class="form-control" id="validationCustom04" required> 
+              <div class="invalid-feedback">
+
+              </div>
+            </div>
+            
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  aceptar terminos y condiciones
+                </label>
+                <div class="invalid-feedback">
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">enviar</button>
+            </div>
+          </form>
+    </body>
+</html>
